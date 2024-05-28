@@ -2,6 +2,10 @@
 #include <iostream>
 #include <numbers>
 
+// EQUATION:
+// \ddot \theta (t) = -\mu \dot \theta (t) - \frac{g}{L}\sin(\theta(t))
+// theta(t)... uncalcuable, that's why this exists
+
 // Physical Consts
 constexpr double g = 9.81;
 constexpr double L = 2.0;
