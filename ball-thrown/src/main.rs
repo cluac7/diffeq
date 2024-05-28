@@ -1,5 +1,9 @@
 use std::io::stdin;
 
+// EQUATION:
+// \ddot h(t) = -9.8
+// h(t) = \frac{1}{2}(9.8)(t^2) + v_0 t + y_0
+
 // Constants
 const G: f64 = -9.8;
 
